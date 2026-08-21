@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:tunes_player_app/widgets/item_countainer_widgets.dart';
 
 class Tuneview extends StatelessWidget {
   const Tuneview({super.key});
@@ -15,7 +16,29 @@ class Tuneview extends StatelessWidget {
         title: Text('Flutter Tune',style: TextStyle(color: Colors.white)
         ),
         ),
-        body: ,
+        body: Column(
+          children: [
+            itemcountainer(
+              color: Colors.blueAccent,
+            ),
+            itemcountainer(
+              color: Colors.redAccent,
+            ),
+            itemcountainer(
+              color: Colors.amberAccent,
+            ),
+            itemcountainer(
+              color: Colors.purple,
+            ),
+            itemcountainer(
+              color: Colors.tealAccent,
+            ),
+            itemcountainer(
+              color: Colors.orange,
+            ),
+          ],
+        ),
     );
   }
 }
+
