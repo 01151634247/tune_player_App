@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tunes_player_app/views/tune_view.dart';
 
 void main() {
   runApp(const tuneApp());
@@ -12,10 +13,10 @@ class tuneApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-
-      ),
+      home: Tuneview(),
+      
       
     );
   }
 }
+
